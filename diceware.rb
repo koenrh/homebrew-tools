@@ -8,5 +8,6 @@ class Diceware < Formula
 
   def install
     bin.install 'diceware'
+    prefix.install ['wordlist-en.txt', 'wordlist-nl.txt']
   end
 end

@@ -1,6 +1,6 @@
 class Asnroutes < Formula
   depends_on 'gawk'
-  depends_on 'whois'
+  depends_on 'homebrew/dupes/whois'
 
   desc 'Get a list of all announced prefixes for a given ASN.'
   homepage 'https://gist.github.com/koenrh/370ca1da644eba8ff8ac03f0233fb26d'

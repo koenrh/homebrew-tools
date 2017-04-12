@@ -1,4 +1,4 @@
-class ArchiveGithubRepository < Formula
+class S3check < Formula
   desc 'Check the public permisisons of an Amazon S3 bucket.'
   homepage 'https://github.com/koenrh/shell-scripts'
   url 'https://github.com/koenrh/shell-scripts.git'

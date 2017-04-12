@@ -1,9 +1,10 @@
 class ArchiveGithubRepository < Formula
-  desc 'Archive public and private GitHub repositories, including issues, and wiki.'
+  desc 'Archive a public or private GitHub repositories, including source code'\
+    'issues, and wiki pages.'
   homepage 'https://github.com/koenrh/shell-scripts'
   url 'https://github.com/koenrh/shell-scripts.git'
   version '0.2'
-  sha256 '562c70fcb454a29fbd2d9c04d88bf8e4f620ab8dd81384e07c99f3244052b9dc'
+  sha256 '6516160ac9525bbbb16a0a9ea925d8736661490eb463291c1cc18f6cd12b6a97'
 
   def install
     bin.install 'archive-github-repository'

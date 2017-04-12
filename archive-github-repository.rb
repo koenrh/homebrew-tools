@@ -4,7 +4,7 @@ class ArchiveGithubRepository < Formula
   homepage 'https://github.com/koenrh/shell-scripts'
   url 'https://github.com/koenrh/shell-scripts.git'
   version '0.2'
-  sha256 '6516160ac9525bbbb16a0a9ea925d8736661490eb463291c1cc18f6cd12b6a97'
+  sha256 '2d29d4aeb6ea420bb092cd034bffe05fd49ee8b20cae7f0afe7896f4a2bc24d3'
 
   def install
     bin.install 'archive-github-repository'

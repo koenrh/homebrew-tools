@@ -1,7 +1,7 @@
 class Purl < Formula
   depends_on 'curl'
 
-  desc 'Get timing information with cURL.'
+  desc 'Get basic request and response timing information.'
   homepage 'https://github.com/koenrh/shell-scripts'
   url 'https://github.com/koenrh/shell-scripts.git'
   version '0.1'

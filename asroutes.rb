@@ -1,14 +1,14 @@
-class Asnroutes < Formula
+class Asroutes < Formula
   depends_on 'gawk'
   depends_on 'whois'
 
   desc 'Get a list of all announced prefixes for a given ASN.'
   homepage 'https://github.com/koenrh/shell-scripts'
   url 'https://github.com/koenrh/shell-scripts.git'
-  version '0.1'
-  sha256 '5cfb2eb8e4dc58b1ff1d3753eaf5059ab27a0c8368b5e0eaae1c681176bdbba0'
+  version '0.2'
+  sha256 'f85dbde98877c6f74bc89ae92ed548e65c5173612b76a921394d30cd1f784fe7'
 
   def install
-    bin.install 'asnroutes'
+    bin.install 'asroutes'
   end
 end

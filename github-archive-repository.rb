@@ -5,8 +5,8 @@ class GithubArchiveRepository < Formula
     'issues, pull requests, and wiki pages.'
   homepage 'https://github.com/koenrh/shell-scripts'
   url 'https://github.com/koenrh/shell-scripts.git'
-  version '0.3'
-  sha256 '233a0be115b7a32affccf6335596c9fe20d3407dffe9775456da07d1fed144d9'
+  version '0.3.1'
+  sha256 'd96250eb59619ff35185c08d09b145eb251c91bfc86622a91fef4ab2188f76cb'
 
   def install
     bin.install 'github-archive-repository'
